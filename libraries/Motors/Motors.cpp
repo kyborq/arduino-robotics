@@ -7,10 +7,10 @@ Motors::Motors(int in1, int in2, int in3, int in4) {
   pinMode(in3, OUTPUT);
   pinMode(in4, OUTPUT);
 
-  lf = in2;
-  lb = in1;
-  rf = in4;
-  rb = in3;
+  lf = in1;
+  lb = in2;
+  rf = in3;
+  rb = in4;
 
   leftSpeed = 255;
   rightSpeed = 255;
