@@ -53,6 +53,13 @@ void loop() {
   }
 }
 
+void forward() {
+  analogWrite(lf, left_speed);
+  analogWrite(lb, 0);
+  analogWrite(rf, right_speed);
+  analogWrite(rb, 0);
+}
+
 void left() {
   analogWrite(lf, 0);
   analogWrite(lb, left_speed);
